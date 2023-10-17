@@ -1,0 +1,15 @@
+Notebook[{Cell[
+BoxData[{RowBox[{RowBox[{RowBox[{"a","[","1","]"}]," ","="," ","1"}],";"}],"\n",RowBox[
+{"Do","[","  ",RowBox[{RowBox[{RowBox[{"a","[","n","]"}]," ","="," ",RowBox[{"Sum","[",RowBox[
+{RowBox[{"a","[","i","]"}],","," ",RowBox[{"{",RowBox[{"i",","," ","1",","," ",RowBox[
+{"n"," ","-"," ","1"}]}],"}"}]}],"]"}]}],",","\n","  ",RowBox[{"{",RowBox[{"n",","," ","2",","," ","30"}],"}"}]}],"]"}]}],
+"Input",CellLabel -> "In[4]:= ",ExpressionUUID -> "46bb248a-5e9f-4f8d-9205-f99c78e15ffd"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Table","[","a","[","n","]",","," ","{","n",","," ","1",","," ","30","}","]"}]],
+"Input",CellLabel -> "In[6]:= ",ExpressionUUID -> "cb46d6d6-af5d-4289-af0a-025f94aa8713"],Cell[
+BoxData[
+RowBox[{"{",RowBox[{"1",",","1",",","2",",","4",",","8",",","16",",","32",",","64",",","128",",","256",",","512",",","1024",",","2048",",","4096",",","8192",",","16384",",","32768",",","65536",",","131072",",","262144",",","524288",",","1048576",",","2097152",",","4194304",",","8388608",",","16777216",",","33554432",",","67108864",",","134217728",",","268435456"}],"}"}],
+StandardForm],"Output",CellLabel -> "Out[6]= ",ExpressionUUID -> "d2fb5801-96f2-47a2-8c33-3175650158a4"]},
+Open],ExpressionUUID -> "61d98211-2351-4e71-b7cd-8e7678ed83f3"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13.2 for Wolfram Cloud 1.64.3 (March 13, 2023)"]
