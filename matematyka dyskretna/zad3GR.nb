@@ -1,0 +1,30 @@
+Notebook[{Cell[
+BoxData[{RowBox[{RowBox[{RowBox[{"a","[","1","]"}],"=","1"}],";"}],"\n",RowBox[
+{RowBox[{RowBox[{"a","[","2","]"}],"=","1"}],";"}],"\n",RowBox[{RowBox[{RowBox[{"a","[","3","]"}],"=",RowBox[
+{"-","5"}]}],";"}]}],"Input",CellLabel -> "In[46]:= ",ExpressionUUID -> "c8bedacf-ef52-4f02-8519-48c60ac157c0"],Cell[
+BoxData[
+RowBox[{"a","[","n_","]"," ",":="," ","6","*","a","[","n"," ","-"," ","1","]"," ","-"," ","11","*","a","[","n"," ","-"," ","2","]"," ","+"," ","6","*","a","[","n"," ","-"," ","3","]",";"}]],
+"Input",CellLabel -> "In[49]:= ",ExpressionUUID -> "cddf0f07-ac2d-48c4-b7b5-607efabcb295"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"Select","[",RowBox[{RowBox[{"Table","[",RowBox[{RowBox[{"a","[","n","]"}],","," ",RowBox[
+{"{",RowBox[{"n",","," ","1",","," ","20"}],"}"}]}],"]"}],","," ",RowBox[{RowBox[
+{"#"," ",">"," ",RowBox[{"-","15000000"}]}]," ","&"}]}],"]"}]],"Input",CellLabel -> "In[50]:= ",
+ExpressionUUID -> "903d0b9b-12cf-4a47-9f32-ecd35841f05b"],Cell[
+BoxData[RowBox[{"{",RowBox[
+{"1",",","1",",",RowBox[{"-","5"}],",",RowBox[{"-","35"}],",",RowBox[{"-","149"}],",",RowBox[
+{"-","539"}],",",RowBox[{"-","1805"}],",",RowBox[{"-","5795"}],",",RowBox[{"-","18149"}],",",RowBox[
+{"-","55979"}],",",RowBox[{"-","171005"}],",",RowBox[{"-","519155"}],",",RowBox[{"-","1569749"}],",",RowBox[
+{"-","4733819"}],",",RowBox[{"-","14250605"}]}],"}"}],StandardForm],"Output",CellLabel -> "Out[50]= ",
+ExpressionUUID -> "4a434a61-84ae-4f26-b4ad-0ea15dba9c30"]},Open],ExpressionUUID -> "e31d1ee0-c8da-4482-8769-0a4fcf9458d2"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"FindSequenceFunction","[",RowBox[{RowBox[{"{",RowBox[{"1",",","1",",",RowBox[
+{"-","5"}],",",RowBox[{"-","35"}],","," ",RowBox[{"-","149"}],",",RowBox[{"-","539"}],",",RowBox[
+{"-","1805"}],",",RowBox[{"-","5795"}],",",RowBox[{"-","18149"}],",",RowBox[{"-","55979"}]}],"}"}],",","n"}],"]"}]],
+"Input",CellLabel -> "In[51]:= ",ExpressionUUID -> "783525ee-06a8-4c22-a5c5-595e7a14aeb1"],Cell[
+BoxData[
+RowBox[{RowBox[{"-","2"}],"+",RowBox[{"3"," ",SuperscriptBox["2","n"]}],"-",SuperscriptBox[
+"3","n"]}],StandardForm],"Output",CellLabel -> "Out[51]= ",ExpressionUUID -> "81a9960a-dfdd-4e49-9617-bd180072594b"]},
+Open],ExpressionUUID -> "173a210e-f3bb-45d6-9fd9-f3c17be4d717"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13.2 for Wolfram Cloud 1.64.3 (March 13, 2023)"]
