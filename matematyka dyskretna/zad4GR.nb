@@ -1,0 +1,12 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[RowBox[{"GeneratingFunction","[",RowBox[
+{RowBox[{RowBox[{"1","/","3"}],"*",RowBox[{"(",RowBox[{RowBox[{"2","^","n"}]," ","+"," ",RowBox[
+{RowBox[{"(",RowBox[{"-","1"}],")"}],"^",RowBox[{"(",RowBox[{"n","+","1"}],")"}]}]}],")"}]}],","," ","n",","," ","x"}],"]"}]],
+"Input",CellLabel -> "In[2]:= ",ExpressionUUID -> "13582557-3aa0-4dd1-948c-465f5706a458"],Cell[
+BoxData[
+RowBox[{FractionBox["1","3"]," ",RowBox[{"(",RowBox[{FractionBox["1",RowBox[{"1","-",RowBox[
+{"2"," ","x"}]}]],"-",FractionBox["1",RowBox[{"1","+","x"}]]}],")"}]}],StandardForm],
+"Output",CellLabel -> "Out[2]= ",ExpressionUUID -> "fd6fa9e4-a86e-4de1-babf-bb0244707c29"]},
+Open],ExpressionUUID -> "8627b2ae-7fa3-4674-a8fe-dadb1de629b0"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13.2 for Wolfram Cloud 1.64.3 (March 13, 2023)"]
