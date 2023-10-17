@@ -1,0 +1,7 @@
+﻿  JIPP-projekt.cpp
+  interface.cpp
+  my_student.cpp
+C:\Users\Eliot\Desktop\JIPP-projekt.cpp\JIPP-projekt.cpp\my_student.cpp(31,43): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+  stack.cpp
+  Generowanie kodu...
+  JIPP-projekt.cpp.vcxproj -> C:\Users\Eliot\Desktop\JIPP-projekt.cpp\x64\Debug\JIPP-projekt.cpp.exe
